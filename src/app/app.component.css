@@ -1,0 +1,140 @@
+
+
+.outerbox {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(123, 112, 172);
+  font-family: 'Poppins', sans-serif;
+  
+  box-sizing: border-box;
+}
+
+
+.container {
+  background-color: #ffffff;
+  padding: 25px 25px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 320px;
+  height: 70vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  position: relative; 
+}
+
+
+h1 {
+  margin: 20px 0 15px 0;
+  font-size: 22px;
+  font-weight: 600;
+  color:  rgb(17, 17, 27);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.input-box {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px 10px 38px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f6f8fc;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  background-color: #fff;
+  border: 1px solid  rgb(127, 103, 235);
+}
+
+/* this is for the insideThe icon  */
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #868486;
+  font-size: 16px;
+}
+
+/* here this is the part of errorText */
+span {
+  color: #b22222;
+  font-size: 12px;
+  text-align: left;
+  display: block;
+  margin-top: -8px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 18px;
+  margin-left: 5px;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #3a09ee;
+}
+
+.remember-me label {
+  font-size: 13px;
+  color: #555;
+}
+
+
+button {
+  width: 100%;
+  background-color:rgb(84, 64, 170);
+  color: white;
+  border: none;
+  padding: 11px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+
+
+button:disabled {
+  background-color: rgb(137, 126, 185);
+  cursor: not-allowed;
+}
+
+
+.signup-text {
+  font-size: 13px;
+  color: #555;
+  position: absolute; 
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #5e5a5c;
+  visibility: visible;
+}
